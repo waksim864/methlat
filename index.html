@@ -1,425 +1,114 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="msvalidate.01" content="6DDA28530E4BE893616AF66BDFD4D935" />
-  <meta charset="utf-8" />
-  <meta http-equiv="content-language" content="en-us" />
-  <title>MethStreams | Stream UFC, NFL, NBA, F1 & College Football Free</title>
-  <meta name="description" content="Watch high-quality live sports on MethStreams — fast, free, and no account needed.">
-<meta name="keywords" content="MethStreams, free sports stream, watch UFC online, NBA live today, NFL HD stream, boxing live, soccer free stream, MMA fight stream, MLB online, NHL live coverage, no login sports stream, live football matches, HD basketball stream, sports without ads, free match stream, global sports streaming, UFC events online, mobile sports access, HD live games, MethStreams USA">
-
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&amp;display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/9605/9605589.png" type="image/x  -icon" />
-<style>
-html {
-  height: 100%;
-}
-
-body {
-  position: relative;
-  height: 100%;
-  background: linear-gradient(#242625 25%, #303133 50%, #303133 50%, #242625 100%);
-  color: #a4a8a4;
-  font-size: 14px;
-  font-family: "Inter", sans-serif;
-}
-
-a {
-  transition: all 0.3s;
-  color: #b1b4b1;
-}
-
-a:hover {
-  color: #cbcdcb;
-}
-
-strong {
-  font-weight: 500;
-  color: #22c55e;
-}
-
-.container {
-  max-width: 650px;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.content {
-  position: absolute;
-  width: 100%;
-}
-
-.content .header {
-  padding: 3.5rem 0 0.3rem;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  margin: 0 2rem;
-}
-
-.content .header img {
-  height: 2rem;
-}
-
-.content .header p {
-  font-size: 1.3rem;
-  font-weight: 500;
-  color: #e5e5e5;
-}
-
-.content .main {
-  position: relative;
-  margin: 0 1rem;
-  z-index: 1;
-  background: #1e201f;
-  border-radius: 0.7rem;
-  padding: 1.5rem;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 3px 3px rgba(0, 0, 0, 0.5);
-  margin-bottom: 1rem;
-}
-
-.content .main ul.m-list {
-  margin: 1rem 0;
-  padding: 0;
-  list-style: none;
-}
-
-.content .main ul.m-list li a {
-  display: flex;
-  justify-content: space-between;
-  background: #242625;
-  padding: 0.5rem 0.8rem;
-  margin: 0.3rem 0;
-  border-radius: 0.4rem;
-  border: 1px solid #3e403f;
-  color: #777b77;
-  text-decoration: none;
-  transition: border-color 0.3s, background 0.3s;
-}
-
-.content .main ul.m-list li a span:first-child {
-  font-weight: 600;
-  color: #e5e5e5;
-}
-
-.content .main ul.m-list li a span:last-child {
-  display: inline-block;
-  align-items: center;
-  transition: color 0.3s;
-}
-
-.content .main ul.m-list li a span:last-child:before {
-  content: " ";
-  display: inline-block;
-  background: #22c55e;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  vertical-align: middle;
-  margin-right: 0.3rem;
-}
-
-.content .main ul.m-list li a:hover {
-  background: oklch(0.393 0.095 152.535);
-  border-color: oklch(0.527 0.154 150.069);
-}
-
-.content .main ul.m-list li a:hover span:last-child {
-  color: #e5e5e5;
-}
-
-.content .main .notice {
-  background: #131514;
-  padding: 0.9rem 1rem 0.4rem;
-  border-radius: 0.5rem;
-  display: flex;
-}
-
-.content .main .notice .start {
-  display: flex;
-  margin-right: 0.5rem;
-}
-
-.content .main .notice .start i {
-  font-size: 1.1rem;
-  color: #e5e5e5;
-}
-
-.content .main .notice .stop {
-  margin-top: 0.1rem;
-  font-size: 0.8rem;
-}
-
-.content .main .notice .stop .heading {
-  font-weight: 400;
-  color: #e5e5e5;
-  font-size: 0.9rem;
-}
-
-.content .main .notice .stop .twitter {
-  background: #00acc1;
-  border-radius: 0.2rem;
-  padding: 0.2rem 0.5rem;
-  display: inline-block;
-  color: #131514;
-  text-decoration: none;
-  font-weight: 500;
-  margin-top: 0.4rem;
-  font-size: 0.8rem;
-}
-
-.content .main .notice .stop .twitter:hover {
-  background: #00d9f4;
-}
-
-.content .main .faq {
-  margin-top: 1.8rem;
-}
-
-.content .main .faq h3 {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: #e5e5e5;
-}
-
-.content .footer {
-  text-align: center;
-  width: 100%;
-  position: relative;
-  z-index: 1;
-  margin-bottom: 2rem;
-}
-
-.wrap {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  margin: 0 auto;
-  perspective: 360px;
-  perspective-origin: 50% 50%;
-}
-
-.top-plane,
-.bottom-plane {
-  width: 200%;
-  height: 130%;
-  position: absolute;
-  left: -50%;
-  background-image: linear-gradient(#303133 2px, transparent 2px),
-    linear-gradient(to right, #303133 2px, transparent 2px);
-  background-size: 100px 100px, 100px 100px;
-  background-position: -1px -1px, -1px -1px;
-  z-index: 0;
-}
-
-.top-plane {
-  bottom: -30%;
-  transform: rotateX(85deg);
-  animation: planeMoveTop 2s infinite linear;
-}
-
-.bottom-plane {
-  top: -30%;
-  transform: rotateX(-85deg);
-  animation: planeMoveBot 2s infinite linear;
-}
-  
-  
-.post-icons {
-  display: none;
-}
-
-@keyframes planeMoveTop {
-  from {
-    background-position: 0px -100px, 0px 0px;
-  }
-  to {
-    background-position: 0px 0px, 100px 0px;
-  }
-}
-
-@keyframes planeMoveBot {
-  from {
-    background-position: 0px 0px, 0px 0px;
-  }
-  to {
-    background-position: 0px -100px, 100px 0px;
-  }
-}
-
-@media (max-height: 350px) {
-  .wrap {
-    perspective: 210px;
-  }
-}
-
-  </style>
-  </head>
-
+<meta name="msvalidate.01" content="CA452765360EEFD6B013FF5C8BF1E7C5" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- SEO Meta Tags -->
+<meta name="description" content="Methstreams delivers smooth, high-definition access to real-time sports like football, basketball, MMA, and more — all without subscriptions or delays.">
+<meta name="keywords" content="Methstreams, HD sports streaming, free football stream, live MMA online, basketball coverage, watch matches live, no-cost sports access, online sports platform">
+<meta name="robots" content="index, follow">
+ <!-- Page Title -->
+<title>MethStreams – Live Sports Streaming in HD, No Signup</title>
+ <!-- Favicon -->
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT96n5qx1VNhJStjtLjKENe0bWg235VYY4eTMbTjAd8T_cCPrUXRVl8HoWXXfVE_UvpLE&usqp=CAU" type="image/png">
+  <!-- Style -->
+ <link href="./output.css" rel="stylesheet" />
+</head>
 <body>
-  <div class="content">
-    <div class="container">
-      <div class="header">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Den%C3%ADk_Sport_logo.svg/1200px-Den%C3%ADk_Sport_logo.svg.png" 
-     alt="MethStreams Logo" 
-     style="height: 80px; width: auto;">
-        <h1>MethStreams V3 – Watch Free Live Sports Streams Anytime</h1>
-      </div>
-      <div class="main">
-        <span>Please press <strong>Ctrl + D</strong> (or <strong>Cmd + D</strong> on Mac) to bookmark MethStreams and stay updated with the latest live sports streams.
+    <div class="header">
+        <center>
+            <!-- Logo with link -->
+            <a id="logo-link" href="https://v2.sportsonline.pro/" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZKOz2HPU8_EZUikyTMr5VCDlcrik7tpHrcQ&s" alt="MethStreams Logo">
+            </a>
+        </center>
+    </div>
+    <div class="content">
 
-</span>
-        <ul class="m-list">
-          <li>
-            <a href="https://v2.sportsonline.pro/">
-              <span>MethStreams Live</span>
-              <span>live</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://v2.sportsonline.pro/">
-              <span>MethStreams NBA</span>
-              <span>live</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://v2.sportsonline.pro/">
-              <span>MethStreams NHL</span>
-              <span>live</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://v2.sportsonline.pro/">
-              <span>MethStreams MLB</span>
-              <span>live</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://v2.sportsonline.pro/">
-              <span>MethStreams NFL</span>
-              <span>live</span>
-            </a>
-          </li>
-           <li>
-            <a href="https://v2.sportsonline.pro/">
-              <span>MethStreams UFC</span>
-              <span>live</span>
-            </a>
-          </li>
-           <li>
-            <a href="https://v2.sportsonline.pro/">
-              <span>MethStreams BOXING</span>
-              <span>live</span>
-            </a>
-          </li>
-        </ul>
-        <div class="notice">
-          <div class="start">
-            <i class="bi bi-exclamation-triangle-fill"></i>
-          </div>
-         <div class="stop">
-  <span class="heading">Welcome to MethStreams</span>
-  <p><strong>Enjoy free live streaming of Soccer, UFC, Boxing, WWE, NFL, and more, all without any sign-ups or subscriptions!</strong></p>
-  <p>Simply choose your event, hit play, and start watching — it's that easy with MethStreams!</p>
-</div>
+        <!-- New Text Banner Above the Box -->
+        <div class="banner-text">
+        MethStreams Live – Stream Sports Instantly in HD, No Signup
         </div>
-        <div class="faq">
-<h2><strong>MethStreams – Watch Live Sports for Free Without Signup</strong></h2>
+        <div class="main">
+            <span>Please press Ctrl + D to bookmark this site to keep updated about MethStreams-official domains.</span>
 
-<p><strong>MethStreams</strong> is the ultimate destination for live sports streaming, offering fans access to the most exciting sports events without the need to create an account or pay any fees. Whether you’re a fan of major international tournaments, local club competitions, or niche sporting events, MethStreams ensures you can enjoy your favorite sports in high-definition quality — all for free.</p>
+            <ul class="m-list">
+                <li class="bntl">
+                    <a href="https://v2.sportsonline.pro/">MethStreams HOME</a>
+                    <span>● LIVE</span>
+                </li>
+                <li class="bntl">
+                    <a href="https://v2.sportsonline.pro/">NBA LIVE HD</a>
+                    <span>● LIVE</span>
+                </li>
+                <li class="bntl">
+                    <a href="https://v2.sportsonline.pro/">NHL LIVE HD</a>
+                    <span>● LIVE</span>
+                </li>
+                <li class="bntl">
+                    <a href="https://v2.sportsonline.pro/">NCAAB LIVE HD</a>
+                    <span>● LIVE</span>
+                </li>
+                <li class="bntl">
+                    <a href="https://v2.sportsonline.pro/">MLS LIVE HD</a>
+                    <span>● LIVE</span>
+                </li>
+              <li class="bntl">
+                    <a href="https://v2.sportsonline.pro/">UFC LIVE HD</a>
+                    <span>● LIVE</span>
+                </li>
+              <li class="bntl">
+                    <a href="https://v2.sportsonline.pro/">BOXING LIVE HD</a>
+                    <span>● LIVE</span>
+                </li>
+            </ul>
+             <section>
+<section id="methstreams-sports-zone">
+  <h1><strong>MethStreams – Your Gateway to Boundless Live Sports</strong></h1>
+  <p><strong>MethStreams</strong> unlocks a world of high-speed, high-quality sports streaming — no charges, no sign-ins, no nonsense. Step into real-time sports action with one click and zero interruptions.</p>
 
-<h2>🚀 Instant Streaming – No Waiting, No Signup</h2>
+  <h3>⚡ One Click. Full Access.</h3>
+  <p>Why wait? <strong>MethStreams</strong> cuts the fluff and delivers direct-to-play streams for all major sports. No accounts, no emails — just tap and stream instantly.</p>
 
-<p>One of the main advantages of using <strong>MethStreams</strong> is its instant access to live streams. There’s no need to wait or complete lengthy registration forms before enjoying your sports. Simply visit the site, and you’ll be able to catch your game in real time. The platform is designed for both simplicity and speed, meaning you can dive right into the action without any interruptions.</p>
+  <h3>💸 Stream Smarter, Not Harder</h3>
+  <p>Everything here is 100% free. No hidden costs, no bait-and-switch. <strong>MethStreams</strong> lets you watch every match, every time, without reaching for your wallet.</p>
 
-<p>Whether you're catching a last-minute game or planning to watch your favorite team play, MethStreams provides a seamless and hassle-free experience. No signups, no passwords, and no personal information required. Just click, stream, and enjoy!</p>
+  <h3>🌍 Infinite Sports, Global Reach</h3>
+  <p>From football stadiums in Europe to UFC octagons in Vegas — <strong>MethStreams</strong> brings the world’s sports to your fingertips, in real time, wherever you are.</p>
 
-<h2>🎥 Completely Free Sports Coverage</h2>
+  <h3>📱 Built for Every Screen</h3>
+  <p>Whether you're on mobile, desktop, tablet, or smart TV — <strong>MethStreams</strong> adapts perfectly, delivering ultra-smooth streams without buffering chaos.</p>
 
-<p>At <strong>MethStreams</strong>, we believe that sports should be accessible to everyone. That’s why we offer complete, unrestricted access to live streams from a variety of sports, completely free of charge. From the most-watched leagues like the NBA, NFL, and Premier League, to more niche competitions in esports, MMA, or even volleyball — MethStreams has it all. And it’s available to you at absolutely no cost.</p>
+  <h3>🛡️ No Login. No Identity. No Limits.</h3>
+  <p>Stay anonymous and secure. <strong>MethStreams</strong> requires no signup — just open, choose, and enjoy. Your data stays with you — exactly where it belongs.</p>
 
-<p>Whether you're into the high-energy action of basketball or prefer the precision and strategy of tennis, you’ll find it all on MethStreams. The platform guarantees you won’t miss a single moment of the sports you love.</p>
+  <h3>🚀 What Makes MethStreams Different?</h3>
+  <ul>
+    <li>🔥 Ultra-fast load times, even during peak matches.</li>
+    <li>🔥 Zero account setup — always direct access.</li>
+    <li>🔥 Massive sport lineup — from NBA to underground fight nights.</li>
+    <li>🔥 Full HD clarity with whisper-low latency.</li>
+    <li>🔥 Streamlined interface with zero distractions.</li>
+  </ul>
 
-<h2>🌍 Follow Sports from Every Continent</h2>
+  <h3>🏀 From Mainstream to Extreme</h3>
+  <p>Whether it’s Premier League football, NFL Sundays, boxing face-offs, or motorsport madness — <strong>MethStreams</strong> keeps you wired into all the action, all the time.</p>
 
-<p>Sports fans around the world know that the action doesn’t stop just because the game is happening far away. That’s why <strong>MethStreams</strong> brings you live streams from every corner of the globe. Whether it's a UEFA Champions League final in Europe, a UFC fight night in Las Vegas, or a thrilling cricket test in Asia, MethStreams gives you access to it all. You can follow top international events or dive into regional competitions with ease.</p>
+  <h3>🧭 Navigate. Watch. Done.</h3>
+  <p>No complicated dashboards or endless lists. <strong>MethStreams</strong> is built for speed — search, find, and stream within seconds.</p>
 
-<p>With MethStreams, you’ll always have a front-row seat to the most exciting sports events happening across the world. The platform carefully curates events from all major regions, presenting them in a user-friendly and easy-to-navigate interface.</p>
+  <h3>🚫 Subscriptions? Not Here.</h3>
+  <p>Why pay when the game should be free? <strong>MethStreams</strong> delivers uninterrupted action with no paywalls, trials, or fake promises. Just pure sports.</p>
 
-<h2>📱 Multi-Device Compatibility</h2>
+  <h3>🎥 Visuals That Hit Different</h3>
+  <p>Enjoy crisp HD streams that capture every pass, punch, and play. <strong>MethStreams</strong> ensures clarity, even under pressure — no pixelated drama.</p>
 
-<p>Watching your favorite sports on MethStreams is incredibly convenient. The platform supports a wide range of devices, allowing you to watch from your smartphone, tablet, laptop, or even a large-screen TV. No matter where you are, or which device you prefer to use, MethStreams ensures the best viewing experience possible.</p>
-
-<p>What’s even better? There are no apps or downloads required. Simply use your regular browser to access MethStreams, and you'll have everything you need to watch live sports, whether you're at home or on the go. It’s truly as simple as clicking a link!</p>
-
-<h2>🔐 Watch Without Sharing Any Personal Info</h2>
-
-<p>Your privacy is important to us, and we understand that not everyone wants to share personal information to enjoy a good game. With <strong>MethStreams</strong>, you can enjoy watching live sports without the need to create an account, share your email address, or input any personal data. Just open the site, choose your sport, and you’re all set to watch uninterrupted.</p>
-
-<p>In today’s world of data privacy concerns, we provide a secure and anonymous streaming experience for all our users. You won’t need to worry about your information being stored or sold — MethStreams is committed to keeping your personal data private and safe.</p>
-
-<h2>🌟 Features That Make MethStreams Special</h2>
-
-<p>Why do so many sports fans choose <strong>MethStreams</strong> for their live streaming needs? The platform’s unique features set it apart from the competition and make it the go-to choice for sports lovers around the world.</p>
-
-<ul>
-  <li>✅ Instant access to live sports — no setup or waiting necessary.</li>
-  <li>✅ No registration or email required to start watching.</li>
-  <li>✅ Covers a wide range of global and regional sports events.</li>
-  <li>✅ Stream sports with minimal buffering and maximum quality.</li>
-  <li>✅ Easy-to-use interface, perfect for beginners and experienced users alike.</li>
-  <li>✅ Categorized sports events and daily match listings for easy browsing.</li>
-  <li>✅ Dark mode support, ideal for late-night viewing.</li>
-</ul>
-
-<h2>⚽ Sports Categories Available on MethStreams</h2>
-
-<p>At <strong>MethStreams</strong>, we’re proud to offer a diverse selection of sports content. Whatever sport you love, you’ll find it here. Below is just a glimpse of the various sports categories available on the platform:</p>
-
-<ul>
-  <li>🏀 Basketball: NBA, EuroLeague, NCAA</li>
-  <li>🏈 American Football: NFL, College Football</li>
-  <li>⚽ Soccer: Premier League, La Liga, Serie A, UCL</li>
-  <li>🥊 Combat Sports: UFC, Boxing, WWE, AEW</li>
-  <li>🏒 Ice Hockey: NHL, KHL</li>
-  <li>🎾 Tennis: ATP, WTA, Grand Slams</li>
-  <li>🏏 Cricket: Test, ODI, T20 Leagues</li>
-  <li>🎮 Esports: League of Legends, Dota 2, CS:GO, Valorant</li>
-</ul>
-
-<p>No matter what sport you’re interested in, MethStreams delivers. You won’t miss any important match, from the most popular leagues to smaller niche events.</p>
-
-<h2>🧭 Easy Navigation and Browsing</h2>
-
-<p>With MethStreams, finding the perfect game to watch is a breeze. The platform’s user interface is designed to make navigation quick and straightforward. You can filter events by sport, time, or competition to find exactly what you’re looking for.</p>
-
-<p>Additionally, MethStreams keeps everything clean and clutter-free. There are no pop-up ads, no distractions, and no unnecessary elements to take away from your experience. The layout is intuitive and simple to use, even for beginners. Whether you’re watching a highly-anticipated game or exploring new sports, MethStreams makes it easy to find exactly what you want.</p>
-
-<h2>💡 Why Fans Choose MethStreams Daily</h2>
-
-<p>What makes <strong>MethStreams</strong> the streaming platform of choice for millions of fans worldwide? It’s the combination of quality, speed, and convenience. Fans appreciate the no-frills approach that MethStreams offers: no signups, no payments, just sports. The service is quick, reliable, and most importantly, free.</p>
-
-<p>For sports fans, the experience is everything. MethStreams delivers high-quality streams without the hassle of dealing with intrusive ads or annoying pop-ups. You won’t need to waste time with long registration forms, and you’ll never have to pay a subscription fee. Simply visit the site and enjoy live sports without any barriers.</p>
-
-<h2>📺 HD Streaming with Reliable Performance</h2>
-
-<p>One of the key reasons <strong>MethStreams</strong> is so beloved is its high-quality video streams. Whether you're watching the Super Bowl or a Friday night soccer match, you can count on MethStreams to deliver crystal-clear video with minimal buffering. We use cutting-edge technology to optimize your streaming experience, ensuring that even during peak traffic, the quality remains top-notch.</p>
-
-<p>Our platform adjusts the stream to match your internet speed, ensuring that you get the best possible viewing experience no matter what device you’re using. Whether it’s HD or Full HD, MethStreams ensures you get the highest quality stream available at any given moment.</p>
-
-<h2>🏁 Your Sports Streaming Solution – 24/7 Coverage</h2>
-
-<p>With MethStreams, you’ll never miss a moment of the action. The platform offers 24/7 sports streaming, meaning that no matter the time of day, you can always find something exciting to watch. MethStreams keeps an updated schedule and live event tracker so you’ll always know what’s happening in the world of sports.</p>
-
-<p>Whether you’re a night owl looking to watch a late-night UFC match or an early bird hoping to catch a live cricket game in Asia, MethStreams makes it easy to follow the sports you love, any time of day or night.</p>
-          </div>
-  </div>
-
+  <h3>🏆 MethStreams – For the Fans Who Don’t Settle</h3>
+  <p>If you crave high-intensity sports without the clutter, <strong>MethStreams</strong> is your digital arena. It’s free. It’s instant. It’s legendary.</p>
+</section>
+</section>
+        </div>
+    </div>
 </body>
-
 </html>
